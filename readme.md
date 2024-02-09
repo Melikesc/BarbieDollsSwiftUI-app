@@ -56,7 +56,8 @@ The `BarbieDolls` struct defines the properties of a Barbie doll:
 ## Installation
 You need Xcode and the Swift language to run this code. Use the following Git command to clone the project to your local machine:
 
-git clone https://github.com/Melikesc/BarbieDollsSwiftUI-app.git
+ ```bash
+   git clone https://github.com/Melikesc/BarbieDollsSwiftUI-app.git
 
 
 ## License
