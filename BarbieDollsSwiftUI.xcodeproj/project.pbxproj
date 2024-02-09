@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4259A002B711808007F20CF /* BarbieDollsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42599FF2B711808007F20CF /* BarbieDollsSwiftUIApp.swift */; };
+		A4259A022B711808007F20CF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4259A012B711808007F20CF /* ListView.swift */; };
+		A4259A042B71180A007F20CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4259A032B71180A007F20CF /* Assets.xcassets */; };
+		A4259A072B71180A007F20CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4259A062B71180A007F20CF /* Preview Assets.xcassets */; };
+		A4259A112B71180A007F20CF /* BarbieDollsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4259A102B71180A007F20CF /* BarbieDollsSwiftUITests.swift */; };
+		A4259A1B2B71180A007F20CF /* BarbieDollsSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4259A1A2B71180A007F20CF /* BarbieDollsSwiftUIUITests.swift */; };
+		A4259A1D2B71180A007F20CF /* BarbieDollsSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4259A1C2B71180A007F20CF /* BarbieDollsSwiftUIUITestsLaunchTests.swift */; };
+		A4259A2A2B711876007F20CF /* BarbieDolls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4259A292B711876007F20CF /* BarbieDolls.swift */; };
+		A4259A2C2B71207E007F20CF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4259A2B2B71207E007F20CF /* MapView.swift */; };
+		A4572AEF2B720E210006DE74 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4572AEE2B720E210006DE74 /* DetailView.swift */; };
+		A4572AF12B72106D0006DE74 /* SpecialImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4572AF02B72106D0006DE74 /* SpecialImageView.swift */; };
+		A4572AF32B72363B0006DE74 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4572AF22B72363B0006DE74 /* ListRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4259A0D2B71180A007F20CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42599F42B711808007F20CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42599FB2B711808007F20CF;
+			remoteInfo = BarbieDollsSwiftUI;
+		};
+		A4259A172B71180A007F20CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42599F42B711808007F20CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42599FB2B711808007F20CF;
+			remoteInfo = BarbieDollsSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42599FC2B711808007F20CF /* BarbieDollsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarbieDollsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42599FF2B711808007F20CF /* BarbieDollsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbieDollsSwiftUIApp.swift; sourceTree = "<group>"; };
+		A4259A012B711808007F20CF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A4259A032B71180A007F20CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4259A062B71180A007F20CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4259A0C2B71180A007F20CF /* BarbieDollsSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbieDollsSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4259A102B71180A007F20CF /* BarbieDollsSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbieDollsSwiftUITests.swift; sourceTree = "<group>"; };
+		A4259A162B71180A007F20CF /* BarbieDollsSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarbieDollsSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4259A1A2B71180A007F20CF /* BarbieDollsSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbieDollsSwiftUIUITests.swift; sourceTree = "<group>"; };
+		A4259A1C2B71180A007F20CF /* BarbieDollsSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbieDollsSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4259A292B711876007F20CF /* BarbieDolls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarbieDolls.swift; sourceTree = "<group>"; };
+		A4259A2B2B71207E007F20CF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A4572AEE2B720E210006DE74 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A4572AF02B72106D0006DE74 /* SpecialImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialImageView.swift; sourceTree = "<group>"; };
+		A4572AF22B72363B0006DE74 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42599F92B711808007F20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4259A092B71180A007F20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4259A132B71180A007F20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42599F32B711808007F20CF = {
+			isa = PBXGroup;
+			children = (
+				A4572AF22B72363B0006DE74 /* ListRowView.swift */,
+				A4572AF02B72106D0006DE74 /* SpecialImageView.swift */,
+				A4572AEE2B720E210006DE74 /* DetailView.swift */,
+				A4259A2B2B71207E007F20CF /* MapView.swift */,
+				A4259A292B711876007F20CF /* BarbieDolls.swift */,
+				A42599FE2B711808007F20CF /* BarbieDollsSwiftUI */,
+				A4259A0F2B71180A007F20CF /* BarbieDollsSwiftUITests */,
+				A4259A192B71180A007F20CF /* BarbieDollsSwiftUIUITests */,
+				A42599FD2B711808007F20CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42599FD2B711808007F20CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42599FC2B711808007F20CF /* BarbieDollsSwiftUI.app */,
+				A4259A0C2B71180A007F20CF /* BarbieDollsSwiftUITests.xctest */,
+				A4259A162B71180A007F20CF /* BarbieDollsSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42599FE2B711808007F20CF /* BarbieDollsSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				A42599FF2B711808007F20CF /* BarbieDollsSwiftUIApp.swift */,
+				A4259A012B711808007F20CF /* ListView.swift */,
+				A4259A032B71180A007F20CF /* Assets.xcassets */,
+				A4259A052B71180A007F20CF /* Preview Content */,
+			);
+			path = BarbieDollsSwiftUI;
+			sourceTree = "<group>";
+		};
+		A4259A052B71180A007F20CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4259A062B71180A007F20CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4259A0F2B71180A007F20CF /* BarbieDollsSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4259A102B71180A007F20CF /* BarbieDollsSwiftUITests.swift */,
+			);
+			path = BarbieDollsSwiftUITests;
+			sourceTree = "<group>";
+		};
+		A4259A192B71180A007F20CF /* BarbieDollsSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4259A1A2B71180A007F20CF /* BarbieDollsSwiftUIUITests.swift */,
+				A4259A1C2B71180A007F20CF /* BarbieDollsSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = BarbieDollsSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A42599FB2B711808007F20CF /* BarbieDollsSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4259A202B71180A007F20CF /* Build configuration list for PBXNativeTarget "BarbieDollsSwiftUI" */;
+			buildPhases = (
+				A42599F82B711808007F20CF /* Sources */,
+				A42599F92B711808007F20CF /* Frameworks */,
+				A42599FA2B711808007F20CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarbieDollsSwiftUI;
+			productName = BarbieDollsSwiftUI;
+			productReference = A42599FC2B711808007F20CF /* BarbieDollsSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4259A0B2B71180A007F20CF /* BarbieDollsSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4259A232B71180A007F20CF /* Build configuration list for PBXNativeTarget "BarbieDollsSwiftUITests" */;
+			buildPhases = (
+				A4259A082B71180A007F20CF /* Sources */,
+				A4259A092B71180A007F20CF /* Frameworks */,
+				A4259A0A2B71180A007F20CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4259A0E2B71180A007F20CF /* PBXTargetDependency */,
+			);
+			name = BarbieDollsSwiftUITests;
+			productName = BarbieDollsSwiftUITests;
+			productReference = A4259A0C2B71180A007F20CF /* BarbieDollsSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4259A152B71180A007F20CF /* BarbieDollsSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4259A262B71180A007F20CF /* Build configuration list for PBXNativeTarget "BarbieDollsSwiftUIUITests" */;
+			buildPhases = (
+				A4259A122B71180A007F20CF /* Sources */,
+				A4259A132B71180A007F20CF /* Frameworks */,
+				A4259A142B71180A007F20CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4259A182B71180A007F20CF /* PBXTargetDependency */,
+			);
+			name = BarbieDollsSwiftUIUITests;
+			productName = BarbieDollsSwiftUIUITests;
+			productReference = A4259A162B71180A007F20CF /* BarbieDollsSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42599F42B711808007F20CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A42599FB2B711808007F20CF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A4259A0B2B71180A007F20CF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A42599FB2B711808007F20CF;
+					};
+					A4259A152B71180A007F20CF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A42599FB2B711808007F20CF;
+					};
+				};
+			};
+			buildConfigurationList = A42599F72B711808007F20CF /* Build configuration list for PBXProject "BarbieDollsSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42599F32B711808007F20CF;
+			productRefGroup = A42599FD2B711808007F20CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42599FB2B711808007F20CF /* BarbieDollsSwiftUI */,
+				A4259A0B2B71180A007F20CF /* BarbieDollsSwiftUITests */,
+				A4259A152B71180A007F20CF /* BarbieDollsSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42599FA2B711808007F20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4259A072B71180A007F20CF /* Preview Assets.xcassets in Resources */,
+				A4259A042B71180A007F20CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4259A0A2B71180A007F20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4259A142B71180A007F20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42599F82B711808007F20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4259A2A2B711876007F20CF /* BarbieDolls.swift in Sources */,
+				A4572AF32B72363B0006DE74 /* ListRowView.swift in Sources */,
+				A4259A2C2B71207E007F20CF /* MapView.swift in Sources */,
+				A4572AF12B72106D0006DE74 /* SpecialImageView.swift in Sources */,
+				A4259A022B711808007F20CF /* ListView.swift in Sources */,
+				A4572AEF2B720E210006DE74 /* DetailView.swift in Sources */,
+				A4259A002B711808007F20CF /* BarbieDollsSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4259A082B71180A007F20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4259A112B71180A007F20CF /* BarbieDollsSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4259A122B71180A007F20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4259A1D2B71180A007F20CF /* BarbieDollsSwiftUIUITestsLaunchTests.swift in Sources */,
+				A4259A1B2B71180A007F20CF /* BarbieDollsSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4259A0E2B71180A007F20CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42599FB2B711808007F20CF /* BarbieDollsSwiftUI */;
+			targetProxy = A4259A0D2B71180A007F20CF /* PBXContainerItemProxy */;
+		};
+		A4259A182B71180A007F20CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42599FB2B711808007F20CF /* BarbieDollsSwiftUI */;
+			targetProxy = A4259A172B71180A007F20CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4259A1E2B71180A007F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4259A1F2B71180A007F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4259A212B71180A007F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarbieDollsSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egitim.BarbieDollsSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4259A222B71180A007F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarbieDollsSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egitim.BarbieDollsSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4259A242B71180A007F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egitim.BarbieDollsSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarbieDollsSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarbieDollsSwiftUI";
+			};
+			name = Debug;
+		};
+		A4259A252B71180A007F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egitim.BarbieDollsSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarbieDollsSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarbieDollsSwiftUI";
+			};
+			name = Release;
+		};
+		A4259A272B71180A007F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egitim.BarbieDollsSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarbieDollsSwiftUI;
+			};
+			name = Debug;
+		};
+		A4259A282B71180A007F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = egitim.BarbieDollsSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarbieDollsSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42599F72B711808007F20CF /* Build configuration list for PBXProject "BarbieDollsSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4259A1E2B71180A007F20CF /* Debug */,
+				A4259A1F2B71180A007F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4259A202B71180A007F20CF /* Build configuration list for PBXNativeTarget "BarbieDollsSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4259A212B71180A007F20CF /* Debug */,
+				A4259A222B71180A007F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4259A232B71180A007F20CF /* Build configuration list for PBXNativeTarget "BarbieDollsSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4259A242B71180A007F20CF /* Debug */,
+				A4259A252B71180A007F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4259A262B71180A007F20CF /* Build configuration list for PBXNativeTarget "BarbieDollsSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4259A272B71180A007F20CF /* Debug */,
+				A4259A282B71180A007F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42599F42B711808007F20CF /* Project object */;
+}
